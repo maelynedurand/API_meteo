@@ -1,0 +1,57 @@
+[
+    {
+        "city": "Rennes",
+        "latitude": "48.11",
+        "longitude": "-1.67"
+    },
+    {
+        "city": "Paris",
+        "latitude": "48.85",
+        "longitude": "2.34"
+    },
+    {
+        "city": "Lille",
+        "latitude": "50.63",
+        "longitude": "3.05"
+    },
+    {
+        "city": "Strasbourg",
+        "latitude": "48.58",
+        "longitude": "7.74"
+    },
+    {
+        "city": "Nantes",
+        "latitude": "47.21",
+        "longitude": "-1.55"
+    },
+    {
+        "city": "Bordeaux",
+        "latitude": "44.84",
+        "longitude": "-0.58"
+    },
+    {
+        "city": "Lyon",
+        "latitude": "45.74",
+        "longitude": "4.84"
+    },
+    {
+        "city": "Toulouse",
+        "latitude": "43.60",
+        "longitude": "1.44"
+    },
+    {
+        "city": "Montpellier",
+        "latitude": "43.61",
+        "longitude": "3.87"
+    },
+    {
+        "city": "Marseille",
+        "latitude": "43.29",
+        "longitude": "5.38"
+    },
+    {
+        "city": "Corse",
+        "latitude": "41.92",
+        "longitude": "8.73"
+    }
+]

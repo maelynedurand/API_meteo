@@ -1,0 +1,232 @@
+html {
+    
+    background-color: rgb(219, 242, 253);
+}
+
+::-moz-selection {
+    color: #fff;
+    background-color: #ffd34e;
+  }
+  ::selection {
+    color: #fff;
+    background-color: #ffd34e;
+  }
+
+.dotLocation {
+    fill: #2ac1dc;
+    transition: .5s;
+    
+}
+.dotLocation:hover {
+    fill: #d60176;
+}
+
+
+header{
+    background-image: url('../img/fond-menu.png');
+    height: 100px;
+    max-height: 100px;
+    background-size: cover;
+    background-position: bottom;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 0;
+}
+header>a {
+    color: aliceblue;
+    font-size: 32px;
+    text-decoration: none;
+    font-family: 'Nanum Pen Script', cursive;
+    transition: .5s;
+}
+
+header>a#active {
+    text-decoration: underline #2ac1dc;
+    
+}
+
+header>a:hover{
+    color: #893ea2;
+}
+
+main{
+    margin-top: 140px;
+}
+.box {
+    display: flex;
+    justify-content: space-evenly; 
+    margin-top: 20px;
+}
+main>h1 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: #2ac1dc;
+    font-size: 7vw;
+    text-align: center;
+}
+#dateParagraphe {
+    font-family: 'Sacramento', cursive;
+    font-size: 45px;
+    color: #d60176;
+    text-align: center;
+    margin-top: -80px;
+ }
+#carte {
+    width:38% ;
+    margin-top: -2%;
+}
+#infosTemperature { 
+    width: 40%;
+    margin-top: -7%;
+}
+
+#topBorder {
+    background-image: url('../img/topborder-clouds-sun.png');
+    height: 200px;
+    background-size: cover;
+    background-position: top right;
+}
+
+#bottomBox {
+    background-color: #ffffff;
+    margin-top: -7%;
+    padding: 3%;
+}
+
+p {
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+    color: #d60176;
+}
+
+#location {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-variant: small-caps;
+    font-size: 70px;
+    text-align: center;
+    color: #d60176;
+}
+
+#temperature {
+    display: flex;
+    margin-top: -9%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    font-size: 65px;
+    font-family: 'Shadows Into Light', cursive;
+
+}
+#temperature>#icone>img {
+    width: 150px;
+    margin-right: 50px;
+}
+
+
+#previsions {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-evenly;
+}
+
+#previsions>.card {
+    width: 25%;
+    padding: 2%;
+    border-radius: 12px;
+    border: solid #d60176;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Shadows Into Light', cursive;
+    color: #d60176;
+}
+
+.time {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Shadows Into Light', cursive;
+    color: #893ea2;
+}
+
+.card>#icone>img {
+    width: 80px;
+    margin-bottom: -18%;
+    
+}
+
+
+footer {
+    background-color: #2ac1dc;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 3%;
+    height: 460px;
+    background-image: url('../img/fond-footer.png');
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4%;
+}
+
+
+#borderTopInput {
+    background-image: url('../img/borderInput.png');
+    background-size: cover;
+    background-position: top;
+    height: 38px;
+    width: 300px;
+}
+
+#midInput {
+    width: 260px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+
+#email {
+    width: 75%;
+}
+
+#bottomInput {
+    background-image: url('../img/bottomInput.png');
+    background-size: cover;
+    background-position: top;
+    height: 38px;
+    width: 300px;
+    margin-top: -2px;
+}
+
+.input {
+    display: flex;
+    border: solid #2ac1dc;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.input>button {
+    width: 25%;
+    border: none;
+    background-color: #fff;
+    color: #d60176;
+    text-align: right;
+
+}
+
+
+input {
+    border: none;
+}
+
+input:focus {
+    outline: none !important;
+}
